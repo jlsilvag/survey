@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Survey page</title>
+
+<style>
+body {
+font-family: sans;
+background-color: rgba(100,200,100, 0.2);
+}
+
+
+#box-container {
+    height: 1100px;
+
+display: flex;
+flex-direction: column ;
+justify-content: flex-start;
+align-items: center;
+
+  }
+
+  #box-1 {
+    background-color: rgba(50,200,150,0.7);
+    width: 80%;
+    height: 100px;
+text-align: center;
+padding: 10px 40px 10px 70px;
+border-radius: 5% ;
+box-shadow: 0 10px 20px rgba(0,0,0,1), 0 6px 6px rgba(0,0,0,0.23);	
+
+  }
+
+  #box-2 {
+    background-color: rgba(50,200,100,0.5);
+    width: 80%;
+    height: 100px;
+text-align: center;
+padding: 10px 40px 10px 70px;
+box-shadow: 0 10px 20px rgba(0,0,0,1), 0 6px 6px rgba(0,0,0,0.23);
+border-radius: 5% ;
+  }
+
+#box-3 {
+    background-color: rgba(50,200,100,0.5);
+    width: 85%;
+    height: 800px;
+padding: 10px 40px 10px 70px;
+box-shadow: 0 10px 20px rgba(0,0,0,1), 0 6px 6px rgba(0,0,0,0.23);
+border-radius: 5% ;
+  }
+#box-4 {
+    background-color: rgba(50,200,150,0.7);
+    width: 80%;
+    height: 100px;
+text-align: center;
+padding: 10px 40px 10px 70px;
+box-shadow: 0 10px 20px rgba(0,0,0,1), 0 6px 6px rgba(0,0,0,0.23);
+border-radius: 5% ;
+  }
+
+</style>
+
+</head>
+
+<body>
+
+<div id="box-container">
+
+<header id="box-1" ><h1>Customer Survey Feedback</h1>
+<a href="imagen de auto.com" alt=""></a>
+</header><br>
+
+<article id="box-2">
+<h2>Please let us know about your experiencie with our products and services</h2><br>
+</article><br>
+
+<section id="box-3">
+
+
+<form action="mailto:jlsilvag@gmail.com" method="post" enctype="text/plain">
+
+<h3>How you know about us?</h3>    	
+	<label for="a"><input id="a" value="a" type="checkbox" name="a-b-c-d"> Recomended by a friend</label><br><br>
+
+	<label for="b"><input id="b" value"b" type="checkbox" name="a-b-c-d"> Our web by search engine</label><br><br>
+
+	<label for="c"><input id="c" value="c" type="checkbox" name="a-b-c-d"> Social media</label><br><br>
+
+	<label for="d"><input id="d" value="d" type="checkbox" name="a-b-c-d"> Other </label><br>
+
+	<input type="text" placeholder="Please tell us" >
+<br><br>
+	
+<h3>Do you have any suggestion to improve our products and services?</h3>
+
+<label for="sugestion" width="100px"><input type="text" placeholder="Your suggestion"  ></label>
+
+<br><br>
+
+<h3>Would you recomend it to your friends or colleages?</h3>
+	<label for="yes"><input id="yes" value="yes" type="radio" name="yes-no">Yes</label>
+	<label for="no"><input id="no" value="no"  type="radio" name="yes-no">No</label>
+<br><br>
+<h3>How satisfied are you with our company overall?</h3>
+	<label for="uno"><input id="uno" value="uno" type="radio" name="uno-dos-tres-cuatro-cinco">Very Satisfied</label>
+	<label for="dos"><input id="dos" value="dos" type="radio" name="uno-dos-tres-cuatro-cinco">Satisfied</label>
+	<label for="tres"><input id="tres" value="tres" type="radio" name="uno-dos-tres-cuatro-cinco">Standard</label>
+	<label for="cuatro"><input id="cuatro" value="cuatro" type="radio" name="uno-dos-tres-cuatro-cinco">Unsatisfied</label>
+	<label for="cinco"><input id="cinco" value="cinco" type="radio" name="uno-dos-tres-cuatro-cinco">Very Unsatisfied</label>
+
+<br><br>
+
+<h3>Please leave your email addres if you would like us to contact you regarding any question</h3>
+
+	<label for="name">Name<br><input type="text" id="name"  placeholder="Your Name" required></label><br><br>
+
+	<label for="email">E-Mail Address<br><input type="text" id="email"  placeholder="Your E-Mail address"></label><br><br>
+
+<button type="submit">Submit</button>
+</form>
+
+
+</section>
+<br>
+
+<footer id="box-4">
+<h3>Thank you for completing and submit our survey</h3>
+</footer>
+</div>
+
+</body>
+
+</html>
